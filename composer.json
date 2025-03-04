@@ -1,0 +1,19 @@
+{
+    "name": "victorvicente004/projeto-filmes",
+    "description": "titulos de filmes, nota no imdb",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Victorvicente004\\ProjetoFilmes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Victor Vicente",
+            "email": "vicentevictor2004@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
