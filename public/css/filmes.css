@@ -1,0 +1,91 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:#333;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .search-bar {
+    margin-top: 10px;
+}
+
+header .search-bar input {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ddd;
+}
+
+header .search-bar button {
+    padding: 8px;
+    background-color: #ff9900;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+header .search-bar button:hover {
+    background-color: #cc7a00;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+/* Grid para exibir filmes lado a lado */
+.movies-grid {
+    display: flex;               /* Flexbox para exibir os filmes em linha */
+    flex-wrap: wrap;             /* Permite a quebra de linha quando necessário */
+    gap: 20px;                   /* Espaçamento entre os itens */
+    justify-content: space-between; /* Alinha os itens de forma espaçada */
+    margin-top: 20px;
+}
+
+.movie-card {
+    background-color:#333;
+    padding: 15px;
+    width: 200px;                /* Define o tamanho fixo para cada card de filme */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);  /* Efeito de zoom quando o mouse passa por cima */
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+}
+
+.movie-card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.movie-card p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
