@@ -10,3 +10,4 @@ Próximas Features:
 Página Inicial mais intuitiva
 Animações na busca de filmes
 Organização de layout (CSS-FlexBox)
+Filmes recém-lançados
